@@ -30,11 +30,13 @@ O arquivo deve ser nomeado exatamente como `1401A9C0.img`. Esse é o nome que o 
 
 ## Como Executar
 
-1. Na pasta do projeto, execute o seguinte comando no terminal:
+1. Na pasta do projeto, execute o seguinte comando no terminal como **root**:
 
 ```bash
-node server.js
+sudo node server.js
 ```
+
+> Se você não executar o servidor como root, ele não será capaz de subir o servidor na porta 69.
 
 2. O servidor TFTP será iniciado automaticamente no IP 192.168.1.10 e estará pronto para atender às solicitações do rádio Siemens.
 
