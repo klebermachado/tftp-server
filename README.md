@@ -9,6 +9,8 @@ Este é um pequeno software que cria um servidor TFTP utilizando a biblioteca `n
 
 ## Instalação
 
+> Para utilizar o servidor abaixo você precisa ter o Node.js instalado no usuário `Root` (https://nodejs.org/pt)
+
 1. Clone ou baixe este repositório para o seu computador.
 2. Abra o terminal na pasta do projeto e instale as dependências com o comando:
    ```bash
